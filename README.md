@@ -1,3 +1,3 @@
-# Strapi application
+<h1 style="text-align:center">Shanghai Blutech CMS Backend with Strapi</h1>
 
-A quick description of your strapi application
+<img src="./index.png" />
