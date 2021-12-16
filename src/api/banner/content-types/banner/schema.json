@@ -1,29 +1,27 @@
 {
   "kind": "collectionType",
-  "collectionName": "sliders",
+  "collectionName": "banners",
   "info": {
-    "singularName": "slider",
-    "pluralName": "sliders",
-    "displayName": "banner",
-    "description": ""
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "banner"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
+    "pageName": {
+      "type": "string"
+    },
     "images": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ]
-    },
-    "pageName": {
-      "type": "string"
+      ],
+      "type": "media",
+      "multiple": true
     },
     "title": {
       "type": "string"

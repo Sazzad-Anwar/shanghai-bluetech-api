@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * slider service.
+ * banner service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::slider.slider');
+module.exports = createCoreService('api::banner.banner');
