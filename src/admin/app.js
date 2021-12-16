@@ -1,12 +1,8 @@
-import AuthLogo from '../extensions/logo192.png';
-import MenuLogo from '../extensions/logo192.png';
-import favicon from '../extensions/favicon.ico';
-
 export default {
   config: {
     locales: [
       // 'ar',
-      // 'fr',
+      'fr',
       // 'cs',
       // 'de',
       // 'dk',
@@ -30,21 +26,8 @@ export default {
       // 'uk',
       // 'vi',
       // 'zh-Hans',
-      'zh',
+      // 'zh',
     ],
-    auth: {
-      logo: AuthLogo
-    },
-    menu: {
-      logo: MenuLogo,
-    },
-    head: {
-      favicon: favicon
-    },
-    tutorials: false,
-    notifications: {
-      release: false
-    }
   },
-  bootstrap() { },
+  bootstrap() {},
 };
