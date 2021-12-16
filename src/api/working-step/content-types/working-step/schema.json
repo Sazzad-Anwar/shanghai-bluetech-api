@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "working_steps",
+  "info": {
+    "singularName": "working-step",
+    "pluralName": "working-steps",
+    "displayName": "working-step"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "json"
+    }
+  }
+}

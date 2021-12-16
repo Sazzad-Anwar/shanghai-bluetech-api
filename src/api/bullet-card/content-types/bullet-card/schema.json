@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bullet_cards",
+  "info": {
+    "singularName": "bullet-card",
+    "pluralName": "bullet-cards",
+    "displayName": "bullet-card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

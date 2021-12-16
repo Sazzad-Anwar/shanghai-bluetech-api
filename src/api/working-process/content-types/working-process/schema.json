@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "working_processes",
+  "info": {
+    "singularName": "working-process",
+    "pluralName": "working-processes",
+    "displayName": "working-process"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

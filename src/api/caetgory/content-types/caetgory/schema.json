@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "caetgories",
+  "info": {
+    "singularName": "caetgory",
+    "pluralName": "caetgories",
+    "displayName": "caetgory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "inversedBy": "caetgories"
+    }
+  }
+}
