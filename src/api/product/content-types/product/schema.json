@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "product"
+    "displayName": "product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -29,11 +30,16 @@
       "type": "media",
       "multiple": true
     },
-    "isLatest": {
+    "latest": {
       "type": "boolean"
     },
-    "isDemanding": {
+    "demanding": {
       "type": "boolean"
+    },
+    "metaTags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.meta-tag"
     },
     "caetgories": {
       "type": "relation",
