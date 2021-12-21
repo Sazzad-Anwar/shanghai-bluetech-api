@@ -44,7 +44,7 @@
       "inversedBy": "products"
     },
     "newModel": {
-      "type": "string"
+      "type": "boolean"
     }
   }
 }
