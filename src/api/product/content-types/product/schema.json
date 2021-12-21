@@ -22,13 +22,14 @@
       "type": "richtext"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "latest": {
       "type": "boolean"
@@ -36,16 +37,14 @@
     "demanding": {
       "type": "boolean"
     },
-    "metaTags": {
-      "type": "component",
-      "repeatable": true,
-      "component": "seo.meta-tag"
-    },
     "caetgories": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::caetgory.caetgory",
       "inversedBy": "products"
+    },
+    "newModel": {
+      "type": "string"
     }
   }
 }

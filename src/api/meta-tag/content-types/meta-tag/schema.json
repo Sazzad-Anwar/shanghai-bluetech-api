@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meta_tags",
+  "info": {
+    "singularName": "meta-tag",
+    "pluralName": "meta-tags",
+    "displayName": "metaTag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "metaTags": {
-      "type": "component",
-      "repeatable": true,
-      "component": "seo.meta-tag"
-    },
     "sections": {
       "type": "component",
       "repeatable": true,
