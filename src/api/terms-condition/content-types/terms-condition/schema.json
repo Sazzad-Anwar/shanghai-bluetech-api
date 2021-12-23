@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms_conditions",
+  "info": {
+    "singularName": "terms-condition",
+    "pluralName": "terms-conditions",
+    "displayName": "terms-condition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.section"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
