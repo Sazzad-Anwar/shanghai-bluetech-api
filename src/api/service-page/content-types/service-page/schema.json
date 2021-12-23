@@ -16,6 +16,15 @@
       "type": "component",
       "repeatable": true,
       "component": "sections.section"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
