@@ -20,6 +20,9 @@
       "relation": "manyToMany",
       "target": "api::product.product",
       "mappedBy": "caetgories"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }
