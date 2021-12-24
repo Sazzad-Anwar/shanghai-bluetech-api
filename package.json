@@ -7,14 +7,15 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "wisgy": "strapi generate:plugin wysiwyg"
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.0.0",
-    "@strapi/plugin-users-permissions": "4.0.0",
+    "@strapi/plugin-i18n": "^4.0.2",
+    "@strapi/plugin-users-permissions": "^4.0.2",
     "@strapi/provider-upload-cloudinary": "^4.0.0",
-    "@strapi/strapi": "4.0.0",
+    "@strapi/strapi": "^4.0.2",
     "pg": "^8.7.1",
     "pg-connection-string": "^2.5.0"
   },
