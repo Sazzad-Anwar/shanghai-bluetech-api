@@ -45,6 +45,9 @@
     },
     "newModel": {
       "type": "boolean"
+    },
+    "code": {
+      "type": "string"
     }
   }
 }
